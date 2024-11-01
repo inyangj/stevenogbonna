@@ -8,21 +8,21 @@ export default function DirectorsReel() {
         {/* Text Section */}
         <div className="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12 self-end ">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Director's Reel
+            Director&apos;s Reel
           </h1>
           <p className=" mb-6">
-            I'm not sure when exactly it started, but I woke up one morning to
-            hear most people call me 'Oluwadabest' (or 'Dabest' when they are in
+            I&apos;m not sure when exactly it started, but I woke up one morning
+            to hear most people call me Oluwadabest (or Dabest when they are in
             a hurry); other than my real name, which is Dada Temitope. And I
             love it, so yeah, you can call me either of those. I hate being
-            boxed, so I'm open to learning new things from any sphere, but I
-            currently earn a living from directing TV Commercials and
+            boxed, so I&apos;m open to learning new things from any sphere, but
+            I currently earn a living from directing TV Commercials and
             documentaries.
           </p>
           <p className=" mb-6">
             Oh, well, aside from how obsessed I am with Nike Air shoes and any
-            Apple product, you'll find everything else about me in my 'About'
-            tab below.
+            Apple product, you&apos;ll find everything else about me in my
+            About tab below.
           </p>
           <p className="">
             Wanna talk? I have a comfy couch waiting for you in my email, hehe!

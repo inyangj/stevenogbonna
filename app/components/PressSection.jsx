@@ -4,30 +4,30 @@ import { test } from "@/public/images";
 const PressSection = () => {
   const pressData = [
     {
-      title: "How Nigerian Director Temitope Dada Became ‘Da Best’",
-      imageUrl: test, 
-      source: "okayafrica",
-      description:
-        "Temitope Dada, popularly referred to as “Dabest” by his friends and protégés, is making TV ads in Nigeria worth talking about.",
-      link: "https://okayafrica.com/how-nigerian-director-temitope-dada-became-da-best",
-    },
-    {
-      title: "Oluwadabest Is The Director Behind Your Favourite Commercials",
-      imageUrl: test, 
-      source: "PiggyVest feature",
-      description:
-        "oluwadabest takes us through his eventful career, discusses the moment his life changed and offers advice for pricing creative work.",
-      link: "https://piggyvest.com/oluwadabest-director-behind-commercials",
-    },
-    {
-      title:
-        "Dada Temitope Has been nominated for The Future Awards Africa Prize For Film",
+      title: "The power of storytelling in content creation",
       imageUrl: test,
-      source: "TFAAFRICA",
-      description:
-        "Meet the nominees for The Future Awards Africa Prize For Film.",
-      link: "https://thefutureawards.com/dada-temitope-nominated",
+      source: "Steven Ogbonna",
+      // description:
+      //   "Temitope Dada, popularly referred to as “Dabest” by his friends and protégés, is making TV ads in Nigeria worth talking about.",
+      link: "https://www.linkedin.com/posts/stevenogbonna7_we-are-selfish-but-our-favorite-reality-activity-7247981522278883331-_b9K?utm_source=share&utm_medium=member_desktop",
     },
+    // {
+    //   title: "Oluwadabest Is The Director Behind Your Favourite Commercials",
+    //   imageUrl: test,
+    //   source: "PiggyVest feature",
+    //   description:
+    //     "oluwadabest takes us through his eventful career, discusses the moment his life changed and offers advice for pricing creative work.",
+    //   link: "https://piggyvest.com/oluwadabest-director-behind-commercials",
+    // },
+    // {
+    //   title:
+    //     "Dada Temitope Has been nominated for The Future Awards Africa Prize For Film",
+    //   imageUrl: test,
+    //   source: "TFAAFRICA",
+    //   description:
+    //     "Meet the nominees for The Future Awards Africa Prize For Film.",
+    //   link: "https://thefutureawards.com/dada-temitope-nominated",
+    // },
   ];
 
   return (

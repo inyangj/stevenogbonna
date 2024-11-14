@@ -17,7 +17,7 @@ export default function Home() {
         {/* Background Video */}
         <video
           className="absolute top-0 left-0 w-full h-full object-cover "
-          src="/videos/pexels.mp4"
+          src="/videos/reel.webm"
           autoPlay
           loop
           muted
@@ -25,18 +25,18 @@ export default function Home() {
 
         {/* Overlay Text Content */}
         <div className="absolute lg:top-20 md:right-32 border-b-0 md:border-2 w-[350px] md:w-[600px] h-[659px] border-white p-8 text-black lg:text-white">
-          <div className="text-left relative bg-red-900">
-            <p className="uppercase text-sm tracking-widest mb-4 absolute top-[20px] lg:top-0 lg:relative md:right-0">
+          <div className="text-left relative ">
+            <p className="uppercase  tracking-widest mb-4 peep absolute top-[20px] lg:top-0 lg:relative md:right-0">
               Commercial + Documentary
             </p>
-            <h1 className="text-5xl lg:text-7xl absolute top-[220px] md:right-0 lg:top-0 lg:relative font-bold mb-2 leading-none">
-              Oluwadabest
+            <h1 className="text-5xl peep lg:text-7xl absolute top-[220px] md:right-0 lg:top-0 lg:relative font-bold mb-2 leading-none">
+              Steven Ogbonna
             </h1>
             <h2 className="text-3xl lg:text-6xl font-light absolute top-[269px] lg:top-0 lg:relative  right-0 text-right lg:text-left mb-4">
-              Director
+              
             </h2>
           </div>
-          <div className="flex justify-between items-center absolute bottom-16 md:w-[550px] w-[310px]">
+          <div className="flex justify-between peep items-center absolute bottom-16 md:w-[550px] w-[310px]">
             <a
               href="#portfolio"
               className="text-lg lg:text-2xl font-semibold uppercase tracking-wider"
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <DirectorsReel />
+      {/* <DirectorsReel /> */}
       <BioSection />
       <BodyOfWork />
       <PressSection />

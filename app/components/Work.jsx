@@ -1,82 +1,91 @@
 import Image from "next/image";
 import AnimatedImage from "./AnimatedImage";
-import { banner, about, drizzy, profile, folio1, test } from "@/public/images";
+import {  folio1, test, cawstem, chimdi, christmas, collective, esther, operators, royal, startup, stevedata } from "@/public/images";
 
 export default function BodyOfWork() {
   const works = [
     {
-      year: "2022",
-      title: "Like This (Ayra Starr)",
+      year: "2023",
+      title: "The Royal Wedding",
       description:
-        "A narrative commercial where I explored various scenarios where the Pocket app proves to be superior and more dependable than its competitors.",
-      image: test,
-      link: "http://like.this.ayra.starr.com",
+        "Emmanuel and Princess’s Love story is one to be shared to nations. The Royal Union captures the beauty of their connection and the warmth of a celebration that feels timeless and true to who they are.",
+      image: royal,
+      link: "https://youtu.be/iGb25oZ-ePU?si=aS1oli5Ut7fHzYuZ",
     },
     {
-      year: "2021",
-      title: "Mastery looks like you (Octa Fx)",
+      year: "2024",
+      title: "Esther & Matthew",
       description:
-        "A narrative commercial demonstrating that mastering forex trading can be as simple as acquiring a skill you have already perfected.",
-      image: test,
-      link: "https://masterylookslikeyou.octa.fx",
+        "Matthew and Esther’s wedding is a heartfelt journey of love and laughter.  This film brings their unique bond to life, capturing the real moments that make their love story unforgettable.",
+      image: esther,
+      link: "https://drive.google.com/file/d/1kvggOnglT9Kz5HVxLI9hUuxCsEJ0U-Gq/view?usp=drive_link",
     },
     {
       year: "2023",
-      title: "9mobile X BNXN",
+      title: "Chimdi & Joel",
       description:
-        "Highlighting 9mobile as a central element in music production, from creating music to strategizing and executing projects.",
-      image: folio1,
-      link: "https://9mobilexbnxn.com",
+        "Chimdi and Joel’s day is a tribute to their deep connection and shared dreams. This short film captures the real emotions, laughter, and love of a couple starting their forever with genuine happiness and warmth.",
+      image: chimdi,
+      link: "https://drive.google.com/file/d/1ss4ay7RKGmgFNY8NgDsxKca0gEBw349e/view?usp=drive_link",
     },
   ];
 
     const showcaseItems = [
       {
+        year: "2024",
+        title: "CAWSTEM",
+        description:
+          "CAWSTEM brings African women in STEM together to connect, inspire, and strengthen the tech ecosystem. This short film highlights the conversations, collaborations, and shared vision driving change in tech across the continent.",
+        image: cawstem,
+        link: "https://drive.google.com/file/d/1dCD-km2SUzexinhkIzyAhyi--6CJu42f/view?usp=drive_link",
+      },
+      {
+        year: "2024",
+        title: "54 COLLECTIVE",
+        description:
+          "This trailer captures a space where innovators from the 54 countries in Africa connect, collaborate, and reimagine what’s possible.",
+        image: collective,
+        link: "https://drive.google.com/file/d/1NXZz4GfWTa49aiR8_xv8qmWh6SwRwbkH/view?usp=drive_link",
+      },
+      {
+        year: "2024",
+        title: "AFRICA STARTUP FESTIVAL",
+        description:
+          "This motivating trailer shows how the Africa Startup Festival dived into navigating the unique challenges and opportunities of the African market.",
+        image: startup,
+        link: "https://drive.google.com/file/d/1XvKFdhFZoJ4EyiGrVss8LmfE5Je2T4Yn/view?usp=drive_link",
+      },
+      {
+        year: "2024",
+        title: "OPERATOR’S MIXER",
+        description:
+          "A vibrant mixer for African tech founders, builders, and entrepreneurs, Operator's Mixer shows the energy of learning, connection, and fun.",
+        image: operators,
+        link: "https://drive.google.com/file/d/1C8b9cWcZ9oZB-u931edAeSRTzCakyWGO/view?usp=drive_link",
+      },
+      {
         year: "2023",
-        title: "Beauty X 9mobile",
+        title: "Christmas In PH",
         description:
-          "A TV show-inspired commercial that delves into our guest answering a crucial question on the show.",
+          "Christmas in PH is a joyful homecoming where friends reunite to celebrate their year’s achievements. This short film brings to life the warmth and tradition of a typical Nigerian Christmas day.",
+        image: christmas,
+        link: "https://drive.google.com/file/d/1_5_LFixRThKmYvqfq0COd8BnzyskZieR/view?usp=drive_link",
+      },
+      {
+        year: "2024",
+        title: "APV LAGOS ISLAND",
+        description:
+          "Highlighting a transformative event hosted by Celebration Church International, this short film reveals moments of inspiration and life-changing experiences.",
         image: test,
-        link: "https://drive.google.com/file/d/your-link-1/view?usp=sharing",
+        link: "https://drive.google.com/file/d/12EjgGWejmd8q8Pw831OYdfkiAOtDgxbx/view?usp=drive_link",
       },
       {
         year: "2022",
-        title: "YOU'VE GOT IT (Burna Boy)",
+        title: "SD Network& Services",
         description:
-          "A motivational thriller that delves into Burna Boy sharing his journey while inspiring the audience.",
-        image: test,
-        link: "https://drive.google.com/file/d/your-link-2/view?usp=sharing",
-      },
-      {
-        year: "2020",
-        title: "Andrea Iyamah SS20 Fashion film",
-        description:
-          "An enchanting thriller unfolds in a serene green environment, combining fashion and dance.",
-        image: test,
-        link: "https://drive.google.com/file/d/your-link-3/view?usp=sharing",
-      },
-      {
-        year: "2021",
-        title: "Invest Bamboo",
-        description: "Bamboo is finally in Ghana!",
-        image: "/path/to/invest-bamboo.jpg",
-        link: "https://drive.google.com/file/d/your-link-4/view?usp=sharing",
-      },
-      {
-        year: "2021",
-        title: "Epic Save (PiggyVest)",
-        description:
-          "A suspenseful ad that leaves everyone on the edge of their seat.",
-        image: "/path/to/piggyvest.jpg",
-        link: "https://drive.google.com/file/d/your-link-5/view?usp=sharing",
-      },
-      {
-        year: "2022",
-        title: "We Want More (Stanbic)",
-        description:
-          "A celebration of growth and aspirations shared among friends and family.",
-        image: "/path/to/stanbic.jpg",
-        link: "https://drive.google.com/file/d/your-link-6/view?usp=sharing",
+          "Highlighting SD Networks & Services, this commercial shows how their fast, seamless service brings ease and reliability to every connection.",
+        image: stevedata,
+        link: "https://drive.google.com/file/d/1GiWZtLFQP1aIaERl6BeYu8IrO2QhAFXw/view?usp=drive_link",
       },
     ];
 

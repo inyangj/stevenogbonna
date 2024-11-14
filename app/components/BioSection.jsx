@@ -23,38 +23,31 @@ export default function BioSection() {
             <h2 className="text-sm font-bold uppercase mb-4">Bio</h2>
             <div>
               <p className="text-lg mb-6">
-                On the list of things Temitope Dada (known popularly as
-                Oluwadabest) is passionate about, the art and act of
-                storytelling comes tops. This is why my works as a commercial
-                and documentary filmmaker always have a peculiar feel to them;
-                one that can only be birthed by Dabest.
+                Hi, I&apos;m Steven Ogbonna, Filmmaker and Creative Lead at Swit
+                Visuals I believe stories have the power to shape perceptions,
+                drive narratives, and spark meaningful engagement. That&apos;s
+                why I believe every brand and individual deserves to tell their
+                authentic story.
               </p>
               <p className="text-lg mb-6">
-                Based in Lagos yet having worked with multinational brands, I
-                lead the creative team at FilmbyDT Production Company and I am
-                passionate about teaching; expressing this as a tutor/convenor
-                at Shoot Edit Repeat — a training for cinematography enthusiasts
-                nationwide.
+                For the past five years, I&apos;ve been telling the best stories
+                of many African brands and people. From documenting how happy
+                and beautiful people look on their wedding day to short films
+                and commercials, I&apos;ve been privileged to create authentic
+                and engaging visuals that describe the narrative of these
+                brands. So, do you have a story to tell? Let&apos;s chat
               </p>
-              <p className="text-lg mb-6">
-                If I were to mention all the film projects I have directed,
-                those with top brands across all spheres like Guinness plc, Octa
-                FX, Abeg, PiggyVest, GTBank, Bamboo, Andrea Iyamah, Sterling
-                Bank, Nigerian Bottling Company, Total and Origin Nigeria might
-                probably interest you the most; even though they would only be
-                me listing a few of the numerous commendable projects I have
-                been a part of.
-              </p>
+              {/*              
               <p className="text-lg">
                 Shoot an email at{" "}
                 <a
-                  href="mailto:oluwadabest@gmail.com"
+                  href="mailto:stevenogbonna56@gmail.com"
                   className="text-gray-400 underline"
                 >
-                  oluwadabest@gmail.com
+                  stevenogbonna56@gmail.com
                 </a>{" "}
                 to get me involved in yours.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

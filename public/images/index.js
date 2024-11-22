@@ -13,6 +13,7 @@ import operators from "./operators.webp";
 import royal from "./royal.webp";
 import startup from "./startup.webp";
 import stevedata from "./stevedata.webp";
+import apv from "./apv.webp";
 
 
-export { banner, about, drizzy, profile, folio1, test, cawstem, chimdi, christmas, collective, esther, operators, royal, startup, stevedata };
+export { banner, about, drizzy, profile, folio1, test, cawstem, chimdi, christmas, collective, esther, operators, royal, startup, stevedata, apv };

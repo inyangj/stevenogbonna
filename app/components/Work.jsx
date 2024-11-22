@@ -1,6 +1,6 @@
 import Image from "next/image";
 import AnimatedImage from "./AnimatedImage";
-import {  folio1, test, cawstem, chimdi, christmas, collective, esther, operators, royal, startup, stevedata } from "@/public/images";
+import {  folio1, test, apv, cawstem, chimdi, christmas, collective, esther, operators, royal, startup, stevedata } from "@/public/images";
 
 export default function BodyOfWork() {
   const works = [
@@ -76,7 +76,7 @@ export default function BodyOfWork() {
         title: "APV LAGOS ISLAND",
         description:
           "Highlighting a transformative event hosted by Celebration Church International, this short film reveals moments of inspiration and life-changing experiences.",
-        image: test,
+        image: apv,
         link: "https://drive.google.com/file/d/12EjgGWejmd8q8Pw831OYdfkiAOtDgxbx/view?usp=drive_link",
       },
       {
